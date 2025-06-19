@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Exercise 06 - Responsive Table</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+    }
+
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    table {
+      width: 100%;
+      height: 100vh;
+      border-collapse: collapse;
+      table-layout: fixed;
+    }
+
+    td {
+      text-align: center;
+      vertical-align: middle;
+      font-family: Arial, sans-serif;
+      font-size: 18px;
+      border: 1px solid #000;
+      padding: 20px;
+      word-wrap: break-word;
+    }
+
+    .cell1 { background-color: #f8b195; }
+    .cell2 { background-color: #f67280; }
+    .cell3 { background-color: #c06c84; }
+    .cell4 { background-color: #6c5b7b; }
+    .cell5 { background-color: #355c7d; color: white; }
+  </style>
+</head>
+<body>
+  <table>
+    <tr>
+      <td class="cell1">Cell 1</td>
+      <td class="cell2">Cell 2</td>
+      <td class="cell3">Cell 3</td>
+      <td class="cell4">Cell 4</td>
+      <td class="cell5">Cell 5</td>
+    </tr>
+  </table>
+</body>
+</html>
